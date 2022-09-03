@@ -1,0 +1,27 @@
+{
+  "name": "@pikepresje/ngx-progress-bar",
+  "version": "1.0.1",
+  "description": "Ngx progress bar",
+  "author": "Ismajl Maliqi",  
+  "license": "MIT",
+  "homepage": "https://github.com/PikePresje/ngx-progress-bar#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular 2",
+    "angular4",
+    "angular5",
+    "angular 5", 
+    "progress bar",
+    "ngx progress bar",
+    "angular progress bar" 
+  ],  
+  "peerDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/flex-layout" : "^5.0.0-beta.13"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
