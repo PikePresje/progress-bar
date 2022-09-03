@@ -32,7 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 </p>
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
-   <a href="https://www.npmjs.com/package/@pikepresje/ngx-progress-bar"><img src="https://badge.fury.io/js/angular-progress-bar.svg?style=flat-square" alt="NPM version"></a>
+   <a href="https://www.npmjs.com/package/@pikepresje/progress-bar"><img src="https://badge.fury.io/js/angular-progress-bar.svg?style=flat-square" alt="NPM version"></a>
    </p> 
  
  ## Table Of Content
@@ -60,13 +60,13 @@ This component offers simple ways to display the progress using parameters.
 Type the following command to install the package:
     
 ```shell
-npm install @PikePresje/ngx-progress-bar@latest --save
+npm install @PikePresje/progress-bar@latest --save
 ```
     
 Then you need to import it into your app module
 
 ```typescript
-import {NgxProgressBarModule} from "@PikePresje/ngx-progress-bar"
+import {NgxProgressBarModule} from "@PikePresje/progress-bar"
 
 @NgModule({
     imports: [

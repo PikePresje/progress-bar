@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'; 
-import { TextPosition } from '@pikepresje/ngx-progress-bar';
+import { TextPosition } from '@pikepresje/progress-bar';
 
 @Component({
   selector: 'app-root',

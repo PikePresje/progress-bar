@@ -1,10 +1,10 @@
 {
-  "name": "@pikepresje/ngx-progress-bar",
-  "version": "1.0.1",
+  "name": "@pikepresje/progress-bar",
+  "version": "1.0.2",
   "description": "Ngx progress bar",
   "author": "Ismajl Maliqi",  
   "license": "MIT",
-  "homepage": "https://github.com/PikePresje/ngx-progress-bar#readme",
+  "homepage": "https://github.com/PikePresje/progress-bar#readme",
   "keywords": [
     "angular",
     "angular2",
