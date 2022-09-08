@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import { NgxProgressBarModule } from 'ngx-progress-bar'
-import { FlexLayoutModule } from '@angular/flex-layout';
-import { NgxProgressBarModule } from '@pikepresje/progress-bar';
+// import { NgxProgressBarModule } from 'ngx-progress-bar' 
+import { NgxProgressBarModule } from '@pikepresje/progress-bar'; 
+import { MaterialExtendedModule } from 'src/material.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { NgxProgressBarModule } from '@pikepresje/progress-bar';
     BrowserModule,
     AppRoutingModule,
     NgxProgressBarModule,
-    FlexLayoutModule
+    MaterialExtendedModule
     
   ],
   providers: [],

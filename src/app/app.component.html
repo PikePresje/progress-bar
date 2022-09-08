@@ -1,4 +1,4 @@
-<div fxLayoutAlign="start start" fxLayoutGap="5em" style="margin-top: 50px; ">
+<div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="5em" style="margin-top: 50px; ">
    <div fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="2em">
       <ngx-progress-bar [value]="value"></ngx-progress-bar>
 
@@ -7,7 +7,7 @@
       <ngx-progress-bar style="width:300px; height:30px;" [value]="value" [borderRadiusX]="50" [borderRadiusY]="50">
       </ngx-progress-bar>
 
-      <ngx-progress-bar style="width:300px; height:30px;" [fillColor]="fillColor" [value]="value" [borderRadiusX]="50"
+      <ngx-progress-bar style="width:300px; height:30px;"  [fillColor]="fillColor" [value]="value" [borderRadiusX]="50"
          [borderRadiusY]="50"></ngx-progress-bar>
 
       <ngx-progress-bar style="width:300px; height:30px;" [fillColor]="fillColor" [value]="value" [showText]="true"
@@ -17,11 +17,11 @@
          [textFont]="'12px Arial, sans-serif'">
       </ngx-progress-bar>
 
-      <ngx-progress-bar style="width:300px; height:30px;" [fillColor]="fillColor"
+      <ngx-progress-bar style="width:300px; height:30px;" class="color-primary" [fillColor]="fillColor"
          [textPosition]="TextPosition.startend" [value]="value" [showText]="true"
          [textFont]="'14px Arial, sans-serif'">
       </ngx-progress-bar>
 
    </div>
-   <button (click)="reset()">Reset</button>
+   <button type="button" mat-raised-button  color="primary" (click)="reset()">Reset</button>
 </div>
