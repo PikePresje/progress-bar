@@ -160,4 +160,6 @@ The basic display uses only value input.
 </ngx-progress-bar>
 
   ```
-
+  Online demo:
+  
+ <a href="https://pikepresje.github.io/progress-bar/"> ngx-progress-bar </a> 
